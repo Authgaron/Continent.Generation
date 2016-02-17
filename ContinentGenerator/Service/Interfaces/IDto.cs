@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Service
 {
-    interface IDto
+    interface IDto<BaseDo>
     {
+        void FromDomainObject(BaseDo domoainObject);
     }
 }

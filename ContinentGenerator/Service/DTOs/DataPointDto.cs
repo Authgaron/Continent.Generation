@@ -7,11 +7,15 @@ using Service.Interfaces;
 
 namespace Service.DTOs
 {
-    public class DataPointDto : IDto
+    abstract class DataPointDto<TPointDo, TDataContainer> : IDto<TPointDo>
     {
         int x;
         int y;
         int scale;
-        IDataContainer data;
+        TDataContainer data;
+
+        public void FromDomainObject(TPointDo domainObject)
+        {
+        }
     }
 }
