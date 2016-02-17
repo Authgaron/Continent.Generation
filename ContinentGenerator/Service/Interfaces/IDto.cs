@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ContinentGenerator
+namespace Service
 {
-    class Program
+    interface IDto
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
