@@ -42,11 +42,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DTOs\DataPointDto.cs" />
+    <Compile Include="DTOs\DtoGrid.cs" />
     <Compile Include="DTOs\DtoList.cs" />
+    <Compile Include="DTOs\TerrainGridCreator.cs" />
+    <Compile Include="Interfaces\IDtoGrid.cs" />
     <Compile Include="Interfaces\IDtoList.cs" />
     <Compile Include="Interfaces\IDataContainer.cs" />
     <Compile Include="Interfaces\IDto.cs" />
+    <Compile Include="Randomizer\IRandomizer.cs" />
+    <Compile Include="Randomizer\MockRandomizer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Randomizer\Randomizer.cs" />
+    <Compile Include="Randomizer\TrueRandomizer.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj">

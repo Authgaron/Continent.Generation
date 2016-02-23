@@ -9,10 +9,10 @@ namespace Service.DTOs
 {
     abstract class DataPointDto<TPointDo, TDataContainer> : IDto<TPointDo>
     {
-        int x;
-        int y;
-        int scale;
-        TDataContainer data;
+        private int x;
+        private int y;
+        private int scale;
+        private TDataContainer data;
 
         public void FromDomainObject(TPointDo domainObject)
         {

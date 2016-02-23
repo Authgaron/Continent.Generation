@@ -39,6 +39,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataPoint.cs" />
+    <Compile Include="HeightContainer.cs" />
+    <Compile Include="IDataContainer.cs" />
+    <Compile Include="HeightPoint.cs" />
+    <Compile Include="IDataPoint.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
